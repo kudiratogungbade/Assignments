@@ -9,16 +9,13 @@ res.setHeader('Content-Type', 'text/html');
 let route = './public/';
 switch (req.url) {
 case '/home':
-route += 'index.html';
+route += 'home.html';
 break;
 case '/contact':
 route += 'contact.html';
 break;
 case '/about':
 route += 'about.html';
-break;
-default:
-route += '404.html'
 break;
 }
 fs.readFile(route, (err, data) => {
