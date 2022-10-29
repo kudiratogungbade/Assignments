@@ -1,0 +1,83 @@
+/* html, body {
+  height: 100%;
+  width: 100%;
+} */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+  background:peachpuff ;
+}
+
+header {
+      height: 70px;
+      background-color:whitesmoke ;
+      
+}
+.logo {
+    
+    font-size: 35px;
+    color:darksalmon ;
+    text-align: center;
+    margin: 0;
+    padding: 15px 0 0 0;
+}
+ 
+.kdr{
+    width: 300px;
+}
+#works img{
+  width: 600px;
+}
+main{
+    font-size:30px;
+    margin: 30px;
+    
+}
+#works{
+  margin-top: 40px;
+}
+#about, #contact {
+    margin-top: 40px;
+}
+.vertical-list{
+    display: flex;
+    margin: 25px;
+    justify-content: space-evenly;
+
+}
+#about h3, #contact h3{
+  margin-bottom: 10px;
+}
+form input{
+  width: 27.8%;
+  height: 35px;
+  
+}
+.nme{
+  margin-bottom: 3px;
+}
+.mail{
+  margin-bottom: 8px;
+}
+
+  nav a {
+    padding: 16px;
+    padding-right: 30px;
+    display: table-cell;
+  }
+form button{
+  width: 27%;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid black;
+}
+  
+  
