@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="login.css" rel="stylesheet" type="text/css" />
+
+  <title>Login-KIZA</title>
+</head>
+<body>
+  
+    <div class="box">
+        <h1>Log In</h1>
+        <form action="">
+
+            <table>
+
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" name="" id="" required placeholder="Enter your email address"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" name="password" id="" placeholder="Enter your password" required
+                            pattern=".{8,}"
+                            title="Must contain 8 or more characters">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="password">Confirm password:</label></td>
+                    <td><input type="password" required placeholder="Confirm password" pattern=".{8,}"
+                            title="Please enter a valid password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="success.html"><input type="submit" value="Login" class="button"></a>
+
+                    </td>
+                </tr>
+
+            </table>
+
+
+        </form>
+
+
+        <div class="login">Don't have an account? <a href="index.html">Register</a></div>
+
+
+    </div>
+
+</body>
+</html>
